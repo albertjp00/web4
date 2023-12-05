@@ -4,6 +4,7 @@
   
 body{
     font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
 }
 
 html{
@@ -35,6 +36,9 @@ nav{
     font-size: 1.5rem;
 }
 
+
+
+
 a{
     color: black !important;
     text-decoration: none  !important ;
@@ -57,7 +61,7 @@ a:hover{
 }
 
 #logo1{
-    left:0 !important;
+    margin-left: 20px !important;
 }
 
 .box input{
@@ -90,10 +94,11 @@ a:hover{
 .nav2{
     height: 78px;
     width:100%;
-    background-color: #198754;
+    background-color: #093c24;
     align-items: center;
     display: flex;
     justify-content: space-around;
+    color: white;
 
 }
 
@@ -118,11 +123,13 @@ a:hover{
 
 #hamburger-nav{
     display:none;
+    justify-content: space-between;
 }
 
 .hamburger-menu{
     position: relative;
     display: inline-block;
+    margin-right: 30px;
 }
 
 
@@ -389,7 +396,8 @@ img{
 .bigpic{
     display: flex;
     justify-content: center;
-    margin-left: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
     margin-top: 30px;
 }
 
@@ -397,7 +405,7 @@ img{
 
 .pic{
     background-image: url(images/bag.jpg);
-    width: 1300px;
+    width: 90%;
     height: 372px;
     background-size: cover;
     border-radius: 15px;
@@ -426,6 +434,55 @@ img{
     text-align: left;
     color: white;
 }
+
+/* FOOTER */
+
+footer{
+    background-color: #093c24;
+    height: 400px;
+}
+
+.row{
+    padding-top: 40px;
+   
+}
+
+.col-sm-2{
+    margin-top: 30px !important;
+    color: white;
+    height: 10px;
+    
+    }
+li{
+    list-style: none;
+}
+
+.foot-logo{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#second{
+    display: none;
+    width:100%;
+    height: auto;
+    background-color: #093c24 ;
+    padding: 30px;
+    color: white;
+    
+    
+    align-items: center;
+}
+
+.links{
+    margin-left: 30%;
+    margin-right: 10%;
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
 /*
 .shop-sele{
     width: 96%;

@@ -43,3 +43,17 @@
     }
 
 }
+
+@media screen and (max-width:768px){
+    #second{
+        display: block;
+
+    }
+    #first{
+        display: none;
+    }
+
+    .learn h6{
+        display: none;
+    }
+}
