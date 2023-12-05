@@ -1,0 +1,45 @@
+@media screen and ( max-width:1200px){
+    .nav2{
+        display: none;
+    }
+    #desktop-nav{
+        display: none;
+    }
+    #hamburger-nav{
+        display:flex;
+    }
+    
+}
+
+
+@media screen and ( max-width:1100px){
+    .shop{
+        display: block;
+    }
+    .element{
+        display: none;
+    }
+    #elementsmall{
+        display: flex;
+        width:400px;
+        margin-left: 8%;
+    }
+    .archies-order{
+        display:block;
+    }
+    .archies-order a{
+        margin-left: 10px;
+    }
+    .archies-order span{
+        margin-left: 10px;
+    }
+
+    .order{
+        width: 100px;
+        font-size: 14px;
+        text-align: center;
+        padding-left: 0;
+        display: block;
+    }
+
+}

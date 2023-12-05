@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Portfolio</title>
+</head>
+<body>
+    
+    <nav id="desktop-nav">
+        <div class="navbar-header" class="logo">
+            <img class="navbar-brand" src="images/logo.png" ></a>
+        </div>
+        <div>
+            <ul class="nav-links"> 
+                <li><a href="#about">Home</a></li>
+                <li><a href="#experience">Gift</a></li>
+                <li><a href="#projects">Order</a></li>
+                <li><a href="#contact">Pay</a></li>
+                <li><a href="#contact">Store</a></li>
+            </ul>
+        </div>
+        
+        <div class="searchbar">
+            <div class="box">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input  placeholder="Looking for something specific?" class="search-input">
+            </div>    
+        </div>
+        <div class="profile">
+            <img src="images/user.png" class="profile-pic">
+        </div>
+    </nav>
+
+    <div class="nav2">
+        <div class="reward">
+            <h5>Joyous Bells: Celebrating Christmas Cheer.</h5>
+        </div>
+        <div class="know">
+            Know More
+        </div>
+    </div>
+
+    <!-- hamburger   nav -->
+    <nav id="hamburger-nav">
+        <div class="navbar-header" id="logo1">
+            <img class="navbar-brand" src="images/logo.png"></a>
+          </div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="togglemenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="togglemenu()">Home</a></li>
+                <li><a href="#experience" onclick="togglemenu()">Gift</a></li>
+                <li><a href="#projects" onclick="togglemenu()">Order</a></li>
+                <li><a href="#contact" onclick="togglemenu()">Pay</a></li>
+                <li><a href="#contact" onclick="togglemenu()">Store</a></li>
+            </div>
+        </div>
+    </nav>
+
+    <div class="circle">
+        <div class="name"><img src="images/Bestseller.jpg" class="image">Bestseller</div>
+        <div class="name"><img src="images/Drinks.jpg" class="image">Drinks</div>
+        <div class="name"><img src="images/Food.jpg" class="image">Food</div>
+        <div class="name"><img src="images/Merchandise.jpg" class="image">Merchandise</div>
+        <div class="name"><img src="images/CoffeeAtHome.jpg" class="image">Coffee At Home</div>
+        <div class="name"><img src="images/ReadyToEat.jpg" class="image">Ready To Eat</div>
+    </div>
+   
+    
+    <div class="element">
+    <div class="order-now">
+        <img src="images/Christmas_Banner_Icon_4_4bb472ff63.png" class="banner">
+       
+        
+        <div class="archies">
+            <a>Starbucks X Archies</a>
+            <p>Experience holiday joy with our 'The Archies' movie-inspired Christmas Specials. Grab your latte and press play!</p>
+            
+        <div class="archies-order">
+            <a>Starting from <br><span>₹415.00</span></a>
+            <button class="order">Order Now</button>
+        </div>
+            
+        </div>
+        
+    </div>
+    </div>
+    <!-- less than 1100 element -->
+    <div id="elementsmall">
+        <div class="order-now">
+            <img src="images/Christmas_Banner_Icon_4_4bb472ff63.png" class="banner">
+           
+            
+            <div class="archies">
+                <a>Starbucks X Archies</a>
+                
+                
+            <div class="archies-order">
+                <a>Starting from <br><span>₹415.00</span></a>
+                <button class="order">Order Now</button>
+            </div>
+                
+            </div>
+            
+        </div>
+        </div>
+
+
+
+
+<!-- Shop section -->
+<div class="shop-sect">
+<div class="heading">
+    Latest Offerings
+</div>
+<div class="shop">
+    <div class="shop-box">
+            
+                <img src="images/104114.jpg" class="img">
+                <img src="images/veg.svg" class="img2">
+                <h6>Veronica Toffee nut crunch latte</h6>
+                <a>225 Kcal</a>
+                <p>Delight your senses with our Toffee Nut Crunch Latte. A perfect combination of steamed milk, our signature esp </p>
+                <div class="price-order">
+                    <a>₹414.75</a>
+                    <button class="buttons">Order Now</button>
+                </div>
+    </div>
+    <div class="shop-box">
+            
+        <img src="images/104118.jpg" class="img">
+        <img src="images/veg.svg" class="img2">
+        <h6>Veronica Toffee nut crunch latte</h6>
+        <a>225 Kcal</a>
+        <p>Delight your senses with our Toffee Nut Crunch Latte. A perfect combination of steamed milk, our signature esp </p>
+        <div class="price-order">
+            <a>₹414.75</a>
+            <button class="buttons">Order Now</button>
+        </div>
+    </div>
+    <div class="shop-box">
+            
+        <img src="images/111814.jpg" class="img">
+        <img src="images/veg.svg" class="img2">
+        <h6>Veronica Toffee nut crunch latte</h6>
+        <a>225 Kcal</a>
+        <p>Delight your senses with our Toffee Nut Crunch Latte. A perfect combination of steamed milk, our signature esp </p>
+        <div class="price-order">
+            <a>₹414.75</a>
+            <button class="buttons">Order Now</button>
+        </div>
+        </div>
+    
+</div>
+
+</div>
+<!-- Big Picture -->
+<div class="picture">
+        <p>Learn more about the world of coffee!</p>
+    <div class="bigpic">
+        <div class="pic">
+            <button class="learn">
+            <h5>How Coffee Stirred Revels & Rebels</h5>
+            <h6>Delighted by the jovial character of coffee, everyone was inspired to bring it home - leading to some of the most crucial firsts.</h6>
+            Learn More
+        </button>
+        </div>
+    </div>
+</div>
+
+<footer>
+
+</footer>
+
+
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+</body>
+</html>
